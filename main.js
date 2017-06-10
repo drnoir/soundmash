@@ -5,7 +5,14 @@ var maxshapeNum  = 15;
 //init initital generative objects 
 var initShapeObjects = [
 	$(".shape"),
-	$(".shape2")
+	$(".shape2"),
+	$(".shape3"),
+	$(".shape4"),
+	$(".shape5"),
+	$(".shape6"),
+	$(".shape7"),
+	$(".shape8"),
+	$(".shape9")
 ]
 
 function getSound(soundFiles){
