@@ -4,11 +4,18 @@
 	margin-right:15%;
 	top:100px;
 	position:absolute;
+	background-color:black;
+	border-radius:20px;
 }
 
+.row{
+width:100%;
+
+}
+
+
 h1{
-	font-size:35px;
-	
+	font-size:20px;
 }
 
 .shape
@@ -20,6 +27,7 @@ background-color:green;
 border-radius:150px;
 border:2px black solid;
 float:left;
+text-align:center;
 }
 
 .shape2
@@ -27,10 +35,11 @@ float:left;
 
 width:300px;
 height:300px;
-background-color:black;
+background-color:white;
 border-radius:150px;
 border:2px red solid;
 float:left;
+text-align:center;
 }
 
 .shape3
@@ -42,4 +51,77 @@ background-color:red;
 border-radius:150px;
 border:2px blue solid;
 float:left;
+text-align:center;
+}
+
+.shape4
+{
+
+width:300px;
+height:300px;
+background-color:red;
+border-radius:150px;
+border:2px blue solid;
+float:left;
+text-align:center;
+}
+
+.shape5
+{
+
+width:300px;
+height:300px;
+background-color:blue;
+border-radius:150px;
+border:2px yellow solid;
+float:left;
+text-align:center;
+}
+
+.shape6
+{
+
+width:300px;
+height:300px;
+background-color:yellow;
+border-radius:150px;
+border:2px red solid;
+float:left;
+text-align:center;
+}
+
+.shape7
+{
+
+width:300px;
+height:300px;
+background-color:purple;
+border-radius:150px;
+border:2px yellow solid;
+float:left;
+text-align:center;
+}
+
+.shape8
+{
+
+width:300px;
+height:300px;
+background-color:white;
+border-radius:150px;
+border:2px red solid;
+float:left;
+text-align:center;
+}
+
+.shape9
+{
+
+width:300px;
+height:300px;
+background-color:orange;
+border-radius:150px;
+border:2px blue solid;
+float:left;
+text-align:center;
 }
