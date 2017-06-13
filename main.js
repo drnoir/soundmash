@@ -15,9 +15,16 @@ var initShapeObjects = [
 	$(".shape9")
 ]
 
+var sound1 = new Howl({
+  src: ['glitch2.mp3']
+});
+
+
 //click events for shapes 
 $(".shape").click(function() {
 alert( "Handler for shape called." );
+sound1.play();
+
 });
 $(".shape2").click(function() {
 alert( "Handler for shape called." );
