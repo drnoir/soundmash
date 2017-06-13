@@ -15,6 +15,35 @@ var initShapeObjects = [
 	$(".shape9")
 ]
 
+//click events for shapes 
+$(".shape").click(function() {
+alert( "Handler for shape called." );
+});
+$(".shape2").click(function() {
+alert( "Handler for shape called." );
+});
+$(".shape3").click(function() {
+alert( "Handler for shape called." );
+});
+$(".shape4").click(function() {
+alert( "Handler for shape called." );
+});
+$(".shape5").click(function() {
+alert( "Handler for shape called." );
+});
+$(".shape6").click(function() {
+alert( "Handler for shape called." );
+});
+$(".shape7").click(function() {
+alert( "Handler for shape called." );
+});
+$(".shape8").click(function() {
+alert( "Handler for shape called." );
+});
+$(".shape9").click(function() {
+alert( "Handler for shape called." );
+});
+
 function getSound(soundFiles){
 var currSoundFile = soundFiles.pop();
 	}
@@ -29,7 +58,7 @@ function refresh(){
 	
 	}
 
-function generate shapes(){
+function generateshapes(){
 	//clone and randomise some element of css
 	
 }
